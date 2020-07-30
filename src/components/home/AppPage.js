@@ -12,10 +12,8 @@ import {
   MDBMask,
   MDBRow,
   MDBCol,
-  
   MDBView,
   MDBContainer,
-  MDBFormInline,
   MDBBtn
 } from 'mdbreact';
 import './AppPage.css';

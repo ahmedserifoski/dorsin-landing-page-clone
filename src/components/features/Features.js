@@ -1,5 +1,5 @@
 import React from "react";
-import {  MDBRow, MDBCol, MDBIcon, MDBView } from "mdbreact";
+import {  MDBRow, MDBCol, MDBIcon } from "mdbreact";
 
 const Features = () => {
   return (

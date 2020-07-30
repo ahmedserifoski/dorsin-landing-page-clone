@@ -1,21 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import {
-  MDBNavbar,
-  MDBNavbarBrand,
-  MDBNavbarNav,
-  MDBNavItem,
-  MDBNavLink,
-  MDBNavbarToggler,
-  MDBCollapse,
+  
   MDBMask,
   MDBRow,
   MDBCol,
   MDBBtn,
   MDBView,
-  MDBContainer,
-  MDBFormInline,
-  MDBAnimation
+  MDBContainer
 } from 'mdbreact';
 import './Build.css';
 
