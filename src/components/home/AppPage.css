@@ -1,0 +1,55 @@
+#apppage .gradient {
+    background: -moz-linear-gradient(
+      45deg,
+      rgba(112, 0, 163, 0.5),
+      rgba(156, 0, 109, 0.5) 100%
+    );
+    background: -webkit-linear-gradient(
+      45deg,
+      rgba(112, 0, 163, 0.5),
+      rgba(156, 0, 109, 0.5) 100%
+    );
+    background: -webkit-gradient(
+      linear,
+      45deg,
+      from(rgba(112, 0, 163, 0.5)),
+      to(rgba(156, 0, 109, 0.5))
+    );
+    background: -o-linear-gradient(
+      45deg,
+      rgba(112, 0, 163, 0.5),
+      rgba(156, 0, 109, 0.5) 100%
+    );
+    background: linear-gradient(
+      45deg,
+      rgba(112, 0, 163, 0.8),
+      rgba(156, 0, 109, 0.8) 100%
+    );
+  }
+  
+  #apppage .view {
+    background-image: url('../../images/76685149-man-helping-colleague-in-office.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+  }
+  
+  #apppage h6 {
+    line-height: 1.7;
+  }
+
+  h1 {
+    font-weight: 900;
+  }
+
+  p {
+    font-weight: 400;
+  }
+
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-weight: 700;
+      font-size: 50px;
+    }
+  }
